@@ -1,6 +1,6 @@
 {
   "brand": {
-    "og": {
+    "lenteveld": {
       "typography": {
         "font-size": {
           "xs": {
@@ -395,7 +395,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{og.color.dark.alpha.100}",
+            "color": "{lenteveld.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -406,7 +406,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{og.color.dark.alpha.100}",
+            "color": "{lenteveld.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -417,7 +417,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{og.color.dark.alpha.100}",
+            "color": "{lenteveld.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -530,6 +530,43 @@
             "type": "color"
           }
         },
+        "red": {
+          "600": {
+            "value": "red"
+          },
+          "100": {
+            "value": "lightpink"
+          }
+        },
+        "yellow": {
+          "600": {
+            "value": "yellow"
+          },
+          "100": {
+            "value": "bisque"
+          }
+        },
+        "blue": {
+          "600": {
+            "value": "blue"
+          },
+          "100": {
+            "value": "aliceblue"
+          }
+        },
+        "green": {
+          "600": {
+            "value": "green"
+          },
+          "100": {
+            "value": "lightgreen"
+          }
+        },
+        "violet": {
+          "100": {
+            "value": "rebeccapurple"
+          }
+        },
         "light": {
           "alpha": {
             "50": {
@@ -633,132 +670,132 @@
     "og": {
       "root": {
         "background-color": {
-          "value": "{og.color.gray.50}",
+          "value": "{lenteveld.color.gray.50}",
           "type": "color"
         }
       },
       "document": {
         "background-color": {
-          "value": "{og.color.white}",
+          "value": "{lenteveld.color.white}",
           "type": "color"
         },
         "color": {
-          "value": "{og.color.black}",
+          "value": "{lenteveld.color.black}",
           "type": "color"
         },
         "inverse": {
           "background-color": {
-            "value": "{og.color.gray.950}",
+            "value": "{lenteveld.color.gray.950}",
             "type": "color"
           },
           "color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           }
         },
         "subtle": {
           "color": {
-            "value": "{og.color.gray.600}",
+            "value": "{lenteveld.color.gray.600}",
             "type": "color"
           }
         },
         "font-size": {
           "small": {
-            "value": "{og.typography.font-size.md}",
+            "value": "{lenteveld.typography.font-size.md}",
             "type": "fontSizes"
           },
           "large": {
-            "value": "{og.typography.font-size.l-md}",
+            "value": "{lenteveld.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         },
         "font-weight": {
-          "value": "{og.typography.font-weight.normal}",
+          "value": "{lenteveld.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "strong": {
           "font-weight": {
-            "value": "{og.typography.font-weight.bold}",
+            "value": "{lenteveld.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         },
         "line-height": {
-          "value": "{og.typography.line-height.md}",
+          "value": "{lenteveld.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{og.typography.font-family.primary}",
+          "value": "{lenteveld.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "heading": {
         "color": {
-          "value": "{og.color.primary-color}",
+          "value": "{lenteveld.color.primary-color}",
           "type": "color"
         },
         "font-weight": {
-          "value": "{og.typography.font-weight.bold}",
+          "value": "{lenteveld.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "font-family": {
-          "value": "{og.typography.font-family.primary}",
+          "value": "{lenteveld.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "container": {
         "border-color": {
-          "value": "{og.color.gray.200}",
+          "value": "{lenteveld.color.gray.200}",
           "type": "color"
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         }
       },
       "line": {
         "border-color": {
-          "value": "{og.color.gray.200}",
+          "value": "{lenteveld.color.gray.200}",
           "type": "color"
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         }
       },
       "interaction": {
         "color": {
-          "value": "{og.color.primary-color}",
+          "value": "{lenteveld.color.primary-color}",
           "type": "color"
         },
         "active": {
           "color": {
-            "value": "{og.color.primary-color-dark}",
+            "value": "{lenteveld.color.primary-color-dark}",
             "type": "color"
           }
         },
         "hover": {
           "color": {
-            "value": "{og.color.primary-color-dark}",
+            "value": "{lenteveld.color.primary-color-dark}",
             "type": "color"
           }
         }
       },
       "focus": {
         "color": {
-          "value": "{og.color.black}",
+          "value": "{lenteveld.color.black}",
           "type": "color"
         },
         "background-color": {
-          "value": "{og.color.support-color}",
+          "value": "{lenteveld.color.support-color}",
           "type": "color"
         },
         "outline-color": {
-          "value": "{og.color.support-color}",
+          "value": "{lenteveld.color.support-color}",
           "type": "color"
         },
         "inverse": {
           "outline-color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           }
         },
@@ -771,7 +808,7 @@
           "type": "other"
         },
         "outline-width": {
-          "value": "{og.border-width.md}",
+          "value": "{lenteveld.border-width.md}",
           "type": "borderWidth"
         }
       },
@@ -781,19 +818,19 @@
           "type": "color"
         },
         "background-color": {
-          "value": "{og.color.white}",
+          "value": "{lenteveld.color.white}",
           "type": "color"
         },
         "border-color": {
-          "value": "{og.color.gray.500}",
+          "value": "{lenteveld.color.gray.500}",
           "type": "color"
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         },
         "color": {
-          "value": "{og.color.gray.950}",
+          "value": "{lenteveld.color.gray.950}",
           "type": "color"
         },
         "active": {
@@ -802,55 +839,55 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{og.color.gray.100}",
+            "value": "{lenteveld.color.gray.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           },
           "border-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
-            "value": "{og.color.gray.950}",
+            "value": "{lenteveld.color.gray.950}",
             "type": "color"
           }
         },
         "disabled": {
           "accent-color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           },
           "background-color": {
-            "value": "{og.color.gray.50}",
+            "value": "{lenteveld.color.gray.50}",
             "type": "color"
           },
           "border-color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           },
           "color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           }
         },
         "focus": {
           "background-color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           },
           "border-color": {
-            "value": "{og.color.black}",
+            "value": "{lenteveld.color.black}",
             "type": "color"
           },
           "border-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
-            "value": "{og.color.black}",
+            "value": "{lenteveld.color.black}",
             "type": "color"
           }
         },
@@ -860,25 +897,25 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{og.color.gray.50}",
+            "value": "{lenteveld.color.gray.50}",
             "type": "color"
           },
           "border-color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           },
           "border-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
-            "value": "{og.color.gray.950}",
+            "value": "{lenteveld.color.gray.950}",
             "type": "color"
           }
         },
         "invalid": {
           "background-color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           },
           "border-color": {
@@ -886,7 +923,7 @@
             "type": "color"
           },
           "border-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
@@ -896,7 +933,7 @@
         },
         "read-only": {
           "background-color": {
-            "value": "{og.color.gray.50}",
+            "value": "{lenteveld.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -904,33 +941,33 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.gray.950}",
+            "value": "{lenteveld.color.gray.950}",
             "type": "color"
           }
         },
         "placeholder": {
           "color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           }
         }
       },
       "pointer-target": {
         "min-size": {
-          "value": "{og.size.md}",
+          "value": "{lenteveld.size.md}",
           "type": "sizing"
         }
       },
       "icon": {
         "functional": {
           "size": {
-            "value": "{og.size.icon.md}",
+            "value": "{lenteveld.size.icon.md}",
             "type": "sizing"
           }
         },
         "toptask": {
           "size": {
-            "value": "{og.size.icon.4xl}",
+            "value": "{lenteveld.size.icon.4xl}",
             "type": "sizing"
           }
         }
@@ -1003,7 +1040,7 @@
           "type": "color"
         },
         "border-radius": {
-          "value": "{og.border-radius.round}",
+          "value": "{lenteveld.border-radius.round}",
           "type": "borderRadius"
         },
         "size": {
@@ -1021,7 +1058,7 @@
           "type": "color"
         },
         "color": {
-          "value": "{og.color.white}",
+          "value": "{lenteveld.color.white}",
           "type": "color"
         },
         "text": {
@@ -1047,7 +1084,7 @@
           }
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         },
         "hover": {
@@ -1060,7 +1097,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           }
         }
@@ -1077,7 +1114,7 @@
         "section": {
           "border-block-end-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "border-width": {
             "type": "borderWidth",
@@ -1095,18 +1132,18 @@
           },
           "border-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "padding-block-end": {
-            "value": "{og.space.block.rabbit}",
+            "value": "lenteveld..block.rabbit}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.mouse}",
+            "value": "{lenteveld.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.mouse}",
+            "value": "{lenteveld.space.inline.mouse}",
             "type": "spacing"
           }
         },
@@ -1121,7 +1158,7 @@
           },
           "icon": {
             "margin-inline": {
-              "value": "{og.space.inline.beetle}",
+              "value": "{lenteveld.space.inline.beetle}",
               "type": "spacing"
             },
             "size": {
@@ -1130,25 +1167,25 @@
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.mouse}",
+            "value": "{lenteveld.space.inline.mouse}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.mouse}",
+            "value": "{lenteveld.space.inline.mouse}",
             "type": "spacing"
           },
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.100}"
+              "value": "{lenteveld.color.gray.100}"
             },
             "border-color": {
               "value": "transparent",
@@ -1161,7 +1198,7 @@
           },
           "expanded": {
             "background-color": {
-              "value": "{og.color.gray.50}",
+              "value": "{lenteveld.color.gray.50}",
               "type": "color"
             },
             "border-color": {
@@ -1175,7 +1212,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{og.color.gray.50}"
+            "value": "{lenteveld.color.gray.50}"
           },
           "border-color": {
             "value": "transparent",
@@ -1202,7 +1239,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.200}"
+              "value": "{lenteveld.color.gray.200}"
             },
             "border-color": {
               "value": "transparent",
@@ -1215,7 +1252,7 @@
           },
           "border-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "font-family": {
             "value": "{og.document.font-family}",
@@ -1230,7 +1267,7 @@
       "card": {
         "body": {
           "padding-block-start": {
-            "value": "{og.space.block.rabbit}",
+            "value": "{lenteveld.space.block.rabbit}",
             "type": "spacing"
           }
         }
@@ -1250,36 +1287,36 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{og.typography.line-height.sm}",
+            "value": "{lenteveld.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{og.typography.font-size.xl}",
+            "value": "{lenteveld.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
         "column-gap": {
-          "value": "{og.space.column.snail}",
+          "value": "{lenteveld.space.column.snail}",
           "type": "spacing"
         },
         "border-width": {
-          "value": "{og.border-width.md}",
+          "value": "{lenteveld.border-width.md}",
           "type": "borderWidth"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "informative": {
@@ -1304,11 +1341,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1316,7 +1353,7 @@
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.ant}",
+            "value": "{lenteveld.space.inline.ant}",
             "type": "spacing"
           },
           "positive": {
@@ -1386,21 +1423,21 @@
         },
         "message": {
           "row-gap": {
-            "value": "{og.space.column.rat}",
+            "value": "{lenteveld.space.column.rat}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.beetle}",
+            "value": "{lenteveld.space.block.beetle}",
             "type": "spacing"
           }
         },
         "content": {
           "row-gap": {
-            "value": "{og.space.block.beetle}",
+            "value": "{lenteveld.space.block.beetle}",
             "type": "spacing"
           }
         }
@@ -1420,16 +1457,16 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{og.typography.line-height.sm}",
+            "value": "{lenteveld.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{og.typography.font-size.xl}",
+            "value": "{lenteveld.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
         "column-gap": {
-          "value": "{og.space.column.snail}",
+          "value": "{lenteveld.space.column.snail}",
           "type": "spacing"
         },
         "border-width": {
@@ -1437,36 +1474,36 @@
           "type": "borderWidth"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "icon": {
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.column.ant}",
+            "value": "{lenteveld.space.column.ant}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.ant}",
+            "value": "{lenteveld.space.inline.ant}",
             "type": "spacing"
           },
           "size": {
@@ -1476,21 +1513,21 @@
         },
         "message": {
           "row-gap": {
-            "value": "{og.space.column.snail}",
+            "value": "{lenteveld.space.column.snail}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.beetle}",
+            "value": "{lenteveld.space.block.beetle}",
             "type": "spacing"
           }
         },
         "body": {
           "font-size": {
-            "value": "{og.typography.font-size.md}",
+            "value": "{lenteveld.typography.font-size.md}",
             "type": "fontSizes"
           }
         }
@@ -1501,15 +1538,15 @@
     "opengemeenten": {
       "tag": {
         "padding-inline": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{og.space.block.flea}",
+          "value": "{lenteveld.space.block.flea}",
           "type": "spacing"
         },
         "border-radius": {
-          "value": "{og.border-radius.round}",
+          "value": "{lenteveld.border-radius.round}",
           "type": "borderRadius"
         },
         "color": {
@@ -1527,20 +1564,20 @@
           "type": "border"
         },
         "font-family": {
-          "value": "{og.typography.font-family.primary}",
+          "value": "{lenteveld.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{og.typography.font-weight.normal}",
+          "value": "{lenteveld.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "icon": {
           "size": {
-            "value": "{og.size.icon.sm}",
+            "value": "{lenteveld.size.icon.sm}",
             "type": "sizing"
           }
         }
@@ -1552,7 +1589,7 @@
       "blockquote": {
         "attribution": {
           "font-size": {
-            "value": "{og.typography.font-size.sm}",
+            "value": "{lenteveld.typography.font-size.sm}",
             "type": "fontSizes"
           },
           "font-family": {
@@ -1560,7 +1597,7 @@
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{og.typography.line-height.md}",
+            "value": "{lenteveld.typography.line-height.md}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1568,7 +1605,7 @@
             "type": "fontWeights"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "color": {
@@ -1582,7 +1619,7 @@
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{og.typography.line-height.sm}",
+            "value": "{lenteveld.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1590,7 +1627,7 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{og.typography.font-size.xl}",
+            "value": "{lenteveld.typography.font-size.xl}",
             "type": "fontSizes"
           },
           "color": {
@@ -1599,11 +1636,11 @@
           }
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
@@ -1639,16 +1676,16 @@
               "value": "{og.icon.functional.size}"
             },
             "margin-inline": {
-              "value": "{og.space.inline.beetle}",
+              "value": "{lenteveld.space.inline.beetle}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -1711,7 +1748,7 @@
         "divider": {
           "size": {
             "type": "sizing",
-            "value": "{og.size.2xs}"
+            "value": "{lenteveld.size.2xs}"
           },
           "color": {
             "value": "{og.document.subtle.color}",
@@ -1719,7 +1756,7 @@
           }
         },
         "margin-inline": {
-          "value": "{og.space.inline.beetle}",
+          "value": "{lenteveld.space.inline.beetle}",
           "type": "spacing"
         },
         "font-family": {
@@ -1748,12 +1785,12 @@
             },
             "color": {
               "type": "color",
-              "value": "{og.color.white}"
+              "value": "{lenteveld.color.white}"
             }
           },
           "background-color": {
             "type": "color",
-            "value": "{og.color.primary-color}"
+            "value": "{lenteveld.color.primary-color}"
           },
           "border-color": {
             "value": "transparent",
@@ -1761,12 +1798,12 @@
           },
           "color": {
             "type": "color",
-            "value": "{og.color.white}"
+            "value": "{lenteveld.color.white}"
           },
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.50}"
+              "value": "{lenteveld.color.gray.50}"
             },
             "border-color": {
               "value": "transparent",
@@ -1774,7 +1811,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{og.color.gray.500}"
+              "value": "{lenteveld.color.gray.500}"
             }
           },
           "focus": {
@@ -1806,7 +1843,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{og.color.white}"
+              "value": "{lenteveld.color.white}"
             }
           }
         },
@@ -1814,7 +1851,7 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.50}"
+              "value": "{lenteveld.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1827,7 +1864,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{og.color.white}"
+            "value": "{lenteveld.color.white}"
           },
           "border-color": {
             "type": "color",
@@ -1840,7 +1877,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.50}"
+              "value": "{lenteveld.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1848,7 +1885,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{og.color.gray.500}"
+              "value": "{lenteveld.color.gray.500}"
             }
           },
           "focus": {
@@ -1872,7 +1909,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.100}"
+              "value": "{lenteveld.color.gray.100}"
             },
             "border-color": {
               "type": "color",
@@ -1890,19 +1927,19 @@
         },
         "border-color": {
           "type": "color",
-          "value": "{og.color.gray.900}"
+          "value": "{lenteveld.color.gray.900}"
         },
         "color": {
           "type": "color",
-          "value": "{og.color.gray.900}"
+          "value": "{lenteveld.color.gray.900}"
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{og.border-radius.sm}"
+          "value": "{lenteveld.border-radius.sm}"
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{og.border-width.sm}"
+          "value": "{lenteveld.border-width.sm}"
         },
         "icon": {
           "size": {
@@ -1910,7 +1947,7 @@
             "value": "{og.icon.functional.size}"
           },
           "margin-inline": {
-            "value": "{og.space.inline.beetle}",
+            "value": "{lenteveld.space.inline.beetle}",
             "type": "spacing"
           }
         },
@@ -1934,7 +1971,7 @@
           "hover": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.dark.alpha.50}"
+              "value": "{lenteveld.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -1960,7 +1997,7 @@
           "disabled": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.gray.50}"
+              "value": "{lenteveld.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1968,7 +2005,7 @@
             },
             "color": {
               "type": "color",
-              "value": "{og.color.gray.500}"
+              "value": "{lenteveld.color.gray.500}"
             }
           },
           "focus": {
@@ -1988,7 +2025,7 @@
           "active": {
             "background-color": {
               "type": "color",
-              "value": "{og.color.dark.alpha.100}"
+              "value": "{lenteveld.color.dark.alpha.100}"
             },
             "border-color": {
               "type": "color",
@@ -2005,24 +2042,24 @@
           "type": "lineHeights"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.mouse}",
+          "value": "{lenteveld.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.mouse}",
+          "value": "{lenteveld.space.inline.mouse}",
           "type": "spacing"
         },
         "disabled": {
           "background-color": {
-            "value": "{og.color.gray.50}",
+            "value": "{lenteveld.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -2030,7 +2067,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.gray.500}",
+            "value": "{lenteveld.color.gray.500}",
             "type": "color"
           }
         },
@@ -2050,7 +2087,7 @@
         },
         "hover": {
           "background-color": {
-            "value": "{og.color.gray.50}",
+            "value": "{lenteveld.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -2064,7 +2101,7 @@
         },
         "active": {
           "background-color": {
-            "value": "{og.color.gray.100}",
+            "value": "{lenteveld.color.gray.100}",
             "type": "color"
           },
           "border-color": {
@@ -2095,7 +2132,7 @@
           "type": "color"
         },
         "column-gap": {
-          "value": "{og.space.block.mouse}",
+          "value": "{lenteveld.space.block.mouse}",
           "type": "spacing"
         },
         "margin-block-end": {
@@ -2115,7 +2152,7 @@
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         }
       }
@@ -2130,7 +2167,7 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{og.size.xs}"
+          "value": "{lenteveld.size.xs}"
         },
         "icon": {
           "size": {
@@ -2194,7 +2231,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           },
           "border-width": {
@@ -2211,7 +2248,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             }
           },
@@ -2247,7 +2284,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             }
           },
@@ -2265,7 +2302,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             }
           }
@@ -2280,7 +2317,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           },
           "border-width": {
@@ -2297,7 +2334,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             }
           },
@@ -2311,7 +2348,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -2329,7 +2366,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -2395,15 +2432,15 @@
     "utrecht": {
       "checkbox-group": {
         "padding-block-end": {
-          "value": "{og.space.block.beetle}",
+          "value": "{lenteveld.space.block.beetle}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.beetle}",
+          "value": "{lenteveld.space.block.beetle}",
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{og.space.row.rat}",
+          "value": "{lenteveld.space.row.rat}",
           "type": "spacing"
         }
       }
@@ -2413,7 +2450,7 @@
     "utrecht": {
       "counter-badge": {
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -2422,23 +2459,23 @@
         },
         "min-block-size": {
           "type": "sizing",
-          "value": "{og.size.icon.2xl}"
+          "value": "{lenteveld.size.icon.2xl}"
         },
         "min-inline-size": {
           "type": "sizing",
-          "value": "{og.size.icon.2xl}"
+          "value": "{lenteveld.size.icon.2xl}"
         },
         "font-weight": {
           "value": "{og.document.strong.font-weight}",
           "type": "fontWeights"
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{og.border-radius.round}"
+          "value": "{lenteveld.border-radius.round}"
         },
         "font-family": {
           "value": "{og.document.font-family}",
@@ -2446,7 +2483,7 @@
         },
         "background-color": {
           "type": "color",
-          "value": "{og.color.secondary-color}"
+          "value": "{lenteveld.color.secondary-color}"
         },
         "border-color": {
           "type": "color",
@@ -2454,14 +2491,14 @@
         },
         "color": {
           "type": "color",
-          "value": "{og.color.white}"
+          "value": "{lenteveld.color.white}"
         },
         "padding-inline": {
-          "value": "{og.space.block.ant}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{og.space.block.ant}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         }
       }
@@ -2481,36 +2518,36 @@
           },
           "row": {
             "padding-block-end": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             },
             "padding-inline-start": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           }
         },
@@ -2521,43 +2558,43 @@
           },
           "row": {
             "padding-block-end": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             },
             "padding-inline-start": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           }
         },
         "item": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "border-color": {
             "value": "{og.line.border-color}",
@@ -2579,36 +2616,36 @@
         "item-action": {
           "row": {
             "padding-block-end": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-block-start": {
-              "value": "{og.space.block.snail}",
+              "value": "{lenteveld.space.block.snail}",
               "type": "spacing"
             },
             "padding-inline-end": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             },
             "padding-inline-start": {
-              "value": "{og.space.inline.snail}",
+              "value": "{lenteveld.space.inline.snail}",
               "type": "spacing"
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           }
         }
@@ -2624,11 +2661,11 @@
             "type": "color"
           },
           "border-inline-start-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.mouse}",
+            "value": "{lenteveld.space.inline.mouse}",
             "type": "spacing"
           }
         }
@@ -2665,7 +2702,7 @@
     "utrecht": {
       "form-field-checkbox-option": {
         "column-gap": {
-          "value": "{og.space.column.snail}",
+          "value": "{lenteveld.space.column.snail}",
           "type": "spacing"
         }
       }
@@ -2680,7 +2717,7 @@
             "value": "{og.icon.functional.size}"
           },
           "margin-inline-end": {
-            "value": "{og.space.inline.beetle}",
+            "value": "{lenteveld.space.inline.beetle}",
             "type": "spacing"
           }
         },
@@ -2758,7 +2795,7 @@
         },
         "disabled": {
           "color": {
-            "value": "{og.color.gray.600}",
+            "value": "{lenteveld.color.gray.600}",
             "type": "color"
           }
         }
@@ -2769,7 +2806,7 @@
     "utrecht": {
       "form-field-radio-option": {
         "column-gap": {
-          "value": "{og.space.column.snail}",
+          "value": "{lenteveld.space.column.snail}",
           "type": "spacing"
         }
       }
@@ -2791,11 +2828,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.sm}",
+          "value": "{lenteveld.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.3xl}",
+          "value": "{lenteveld.typography.font-size.3xl}",
           "type": "fontSizes"
         }
       },
@@ -2813,11 +2850,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.sm}",
+          "value": "{lenteveld.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.2xl}",
+          "value": "{lenteveld.typography.font-size.2xl}",
           "type": "fontSizes"
         }
       },
@@ -2835,11 +2872,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.sm}",
+          "value": "{lenteveld.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.lg}",
+          "value": "{lenteveld.typography.font-size.lg}",
           "type": "fontSizes"
         }
       },
@@ -2857,11 +2894,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.md}",
+          "value": "{lenteveld.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.md}",
+          "value": "{lenteveld.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -2879,11 +2916,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.md}",
+          "value": "{lenteveld.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         }
       },
@@ -2901,11 +2938,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{og.typography.line-height.md}",
+          "value": "{lenteveld.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{og.typography.font-size.xs}",
+          "value": "{lenteveld.typography.font-size.xs}",
           "type": "fontSizes"
         }
       }
@@ -2915,19 +2952,19 @@
     "utrecht": {
       "icon-only-button": {
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         }
       }
@@ -3006,7 +3043,7 @@
             "value": "{og.icon.functional.size}"
           },
           "margin-inline": {
-            "value": "{og.space.inline.ant}",
+            "value": "{lenteveld.space.inline.ant}",
             "type": "spacing"
           }
         },
@@ -3037,7 +3074,7 @@
     "utrecht": {
       "ordered-list": {
         "padding-inline-start": {
-          "value": "{og.space.inline.rabbit}",
+          "value": "{lenteveld.space.inline.rabbit}",
           "type": "spacing"
         },
         "color": {
@@ -3062,11 +3099,11 @@
         },
         "item": {
           "margin-block-end": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           },
           "margin-block-start": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           }
         }
@@ -3079,11 +3116,11 @@
         "relative-link": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "icon": {
             "margin-inline": {
-              "value": "{og.space.inline.ant}",
+              "value": "{lenteveld.space.inline.ant}",
               "type": "spacing"
             },
             "size": {
@@ -3092,11 +3129,11 @@
             }
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -3191,13 +3228,13 @@
           },
           "previous": {
             "padding-inline-end": {
-              "value": "{og.space.inline.ant}",
+              "value": "{lenteveld.space.inline.ant}",
               "type": "spacing"
             }
           },
           "next": {
             "padding-inline-start": {
-              "value": "{og.space.inline.ant}",
+              "value": "{lenteveld.space.inline.ant}",
               "type": "spacing"
             }
           }
@@ -3205,7 +3242,7 @@
         "page-link": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{og.border-width.sm}"
+            "value": "{lenteveld.border-width.sm}"
           },
           "font-weight": {
             "value": "{og.document.font-weight}",
@@ -3238,19 +3275,19 @@
             "type": "borderRadius"
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "focus": {
@@ -3329,7 +3366,7 @@
           }
         },
         "gap": {
-          "value": "{og.space.inline.ant}",
+          "value": "{lenteveld.space.inline.ant}",
           "type": "spacing"
         },
         "font-family": {
@@ -3346,11 +3383,11 @@
         },
         "ellipses": {
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
@@ -3393,7 +3430,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.font-size.md}",
+          "value": "{lenteveld.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -3415,7 +3452,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.font-size.lg}",
+          "value": "{lenteveld.typography.font-size.lg}",
           "type": "fontSizes"
         }
       },
@@ -3437,7 +3474,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         }
       }
@@ -3462,12 +3499,12 @@
         },
         "size": {
           "type": "sizing",
-          "value": "{og.size.xs}"
+          "value": "{lenteveld.size.xs}"
         },
         "dot": {
           "size": {
             "type": "sizing",
-            "value": "{og.size.3xs}"
+            "value": "{lenteveld.size.3xs}"
           }
         },
         "background-color": {
@@ -3526,7 +3563,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{og.color.white}",
+            "value": "{lenteveld.color.white}",
             "type": "color"
           },
           "hover": {
@@ -3539,7 +3576,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -3557,7 +3594,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             },
             "border-width": {
@@ -3593,7 +3630,7 @@
               "type": "color"
             },
             "color": {
-              "value": "{og.color.white}",
+              "value": "{lenteveld.color.white}",
               "type": "color"
             }
           },
@@ -3618,7 +3655,7 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{og.border-radius.round}"
+          "value": "{lenteveld.border-radius.round}"
         },
         "border-width": {
           "value": "{og.form-control.border-width}",
@@ -3631,15 +3668,15 @@
     "utrecht": {
       "radio-group": {
         "padding-block-end": {
-          "value": "{og.space.block.beetle}",
+          "value": "{lenteveld.space.block.beetle}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.beetle}",
+          "value": "{lenteveld.space.block.beetle}",
           "type": "spacing"
         },
         "row-gap": {
-          "value": "{og.space.row.rat}",
+          "value": "{lenteveld.space.row.rat}",
           "type": "spacing"
         }
       }
@@ -3735,19 +3772,19 @@
           }
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "border-radius": {
@@ -3793,15 +3830,15 @@
           "type": "color"
         },
         "block-size": {
-          "value": "{og.size.4xs}",
+          "value": "{lenteveld.size.4xs}",
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         }
       }
@@ -3821,7 +3858,7 @@
               "value": "{og.icon.functional.size}"
             },
             "margin-inline": {
-              "value": "{og.space.inline.beetle}",
+              "value": "{lenteveld.space.inline.beetle}",
               "type": "spacing"
             }
           },
@@ -3886,11 +3923,11 @@
             }
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "text-decoration": {
@@ -3929,19 +3966,19 @@
           "value": "{og.pointer-target.min-size}"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.mouse}",
+          "value": "{lenteveld.space.inline.mouse}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.mouse}",
+          "value": "{lenteveld.space.inline.mouse}",
           "type": "spacing"
         },
         "focus": {
@@ -3976,10 +4013,10 @@
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{og.border-width.sm}"
+          "value": "{lenteveld.border-width.sm}"
         },
         "box-block-end-shadow": {
-          "value": "{og.box-shadow.lg}",
+          "value": "{lenteveld.box-shadow.lg}",
           "type": "boxShadow"
         },
         "text-decoration": {
@@ -3993,7 +4030,7 @@
     "utrecht": {
       "status-badge": {
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -4005,7 +4042,7 @@
           "type": "fontWeights"
         },
         "border-width": {
-          "value": "{og.border-width.sm}",
+          "value": "{lenteveld.border-width.sm}",
           "type": "borderWidth"
         },
         "font-family": {
@@ -4014,20 +4051,20 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{og.border-radius.sm}"
+          "value": "{lenteveld.border-radius.sm}"
         },
         "padding-inline": {
-          "value": "{og.space.inline.ant}",
+          "value": "{lenteveld.space.inline.ant}",
           "type": "spacing"
         },
         "padding-block": {
-          "value": "{og.space.block.flea}",
+          "value": "{lenteveld.space.block.flea}",
           "type": "spacing"
         },
         "informative": {
           "background-color": {
             "type": "color",
-            "value": "{opengemeenten.card.informative.background-color}"
+            "value": "{lenteveld.color.blue.100}"
           },
           "border-color": {
             "type": "color",
@@ -4041,7 +4078,7 @@
         "positive": {
           "background-color": {
             "type": "color",
-            "value": "{opengemeenten.card.positive.background-color}"
+            "value": "{lenteveld.color.green.100}"
           },
           "border-color": {
             "type": "color",
@@ -4122,11 +4159,11 @@
         },
         "caption": {
           "line-height": {
-            "value": "{og.typography.line-height.sm}",
+            "value": "{lenteveld.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "margin-block-end": {
-            "value": "{og.space.block.rabbit}",
+            "value": "{lenteveld.space.block.rabbit}",
             "type": "spacing"
           },
           "color": {
@@ -4142,25 +4179,25 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{og.typography.font-size.xl}",
+            "value": "{lenteveld.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
         "cell": {
           "padding-block-end": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-block-start": {
-            "value": "{og.space.block.snail}",
+            "value": "{lenteveld.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{og.space.inline.snail}",
+            "value": "{lenteveld.space.inline.snail}",
             "type": "spacing"
           }
         },
@@ -4188,7 +4225,7 @@
         },
         "header": {
           "border-block-end-width": {
-            "value": "{og.border-width.md}",
+            "value": "{lenteveld.border-width.md}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4202,7 +4239,7 @@
         },
         "footer": {
           "border-block-end-width": {
-            "value": "{og.border-width.sm}",
+            "value": "{lenteveld.border-width.sm}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4216,7 +4253,7 @@
         },
         "row": {
           "border-block-end-width": {
-            "value": "{og.border-width.sm}",
+            "value": "{lenteveld.border-width.sm}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4252,11 +4289,11 @@
         },
         "container": {
           "box-inline-end-shadow": {
-            "value": "{og.box-shadow.lg}",
+            "value": "{lenteveld.box-shadow.lg}",
             "type": "boxShadow"
           },
           "box-inline-start-shadow": {
-            "value": "{og.box-shadow.lg}",
+            "value": "{lenteveld.box-shadow.lg}",
             "type": "boxShadow"
           }
         }
@@ -4271,19 +4308,19 @@
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "background-color": {
@@ -4445,19 +4482,19 @@
           "type": "sizing"
         },
         "padding-block-end": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{og.space.block.snail}",
+          "value": "{lenteveld.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.snail}",
+          "value": "{lenteveld.space.inline.snail}",
           "type": "spacing"
         },
         "background-color": {
@@ -4605,16 +4642,16 @@
           "type": "lineHeights"
         },
         "padding-inline-start": {
-          "value": "{og.space.inline.rabbit}",
+          "value": "{lenteveld.space.inline.rabbit}",
           "type": "spacing"
         },
         "item": {
           "margin-block-end": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           },
           "margin-block-start": {
-            "value": "{og.space.block.ant}",
+            "value": "{lenteveld.space.block.ant}",
             "type": "spacing"
           }
         }
@@ -4626,7 +4663,7 @@
       "paragraph": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-md}",
+            "value": "{lenteveld.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         }
@@ -4634,7 +4671,7 @@
       "paragraph-lead": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-lg}",
+            "value": "{lenteveld.typography.font-size.l-lg}",
             "type": "fontSizes"
           }
         }
@@ -4642,7 +4679,7 @@
       "paragraph-small-print": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-sm}",
+            "value": "{lenteveld.typography.font-size.l-sm}",
             "type": "fontSizes"
           }
         }
@@ -4654,7 +4691,7 @@
       "heading-1": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-3xl}",
+            "value": "{lenteveld.typography.font-size.l-3xl}",
             "type": "fontSizes"
           }
         }
@@ -4662,7 +4699,7 @@
       "heading-2": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-2xl}",
+            "value": "{lenteveld.typography.font-size.l-2xl}",
             "type": "fontSizes"
           }
         }
@@ -4670,7 +4707,7 @@
       "heading-3": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-lg}",
+            "value": "{lenteveld.typography.font-size.l-lg}",
             "type": "fontSizes"
           }
         }
@@ -4678,7 +4715,7 @@
       "heading-4": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-md}",
+            "value": "{lenteveld.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         }
@@ -4686,7 +4723,7 @@
       "heading-5": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-sm}",
+            "value": "{lenteveld.typography.font-size.l-sm}",
             "type": "fontSizes"
           }
         }
@@ -4694,7 +4731,7 @@
       "heading-6": {
         "large-viewport": {
           "font-size": {
-            "value": "{og.typography.font-size.l-xs}",
+            "value": "{lenteveld.typography.font-size.l-xs}",
             "type": "fontSizes"
           }
         }
@@ -4705,11 +4742,11 @@
     "opengemeenten": {
       "datetime": {
         "column-gap": {
-          "value": "{og.space.block.ant}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         },
         "font-weight": {
-          "value": "{og.typography.font-weight.bold}",
+          "value": "{lenteveld.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       }
@@ -4719,21 +4756,21 @@
     "opengemeenten": {
       "step-by-step-plan": {
         "padding-block": {
-          "value": "{og.space.block.ant}",
+          "value": "{lenteveld.space.block.ant}",
           "type": "spacing"
         },
         "padding-block-end": {
-          "value": "{og.space.block.mouse}",
+          "value": "{lenteveld.space.block.mouse}",
           "type": "spacing"
         },
         "font-family": {
-          "value": "{og.typography.font-family.primary}",
+          "value": "{lenteveld.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "datetime": {
         "font-size": {
-          "value": "{og.typography.font-size.sm}",
+          "value": "{lenteveld.typography.font-size.sm}",
           "type": "fontSizes"
         }
       }
@@ -4741,7 +4778,7 @@
     "og": {
       "step-by-step-plan": {
         "bullet": {
-          "value": "{og.color.secondary-color}",
+          "value": "{lenteveld.color.secondary-color}",
           "type": "color"
         }
       }
@@ -4752,7 +4789,7 @@
       "header": {
         "menu": {
           "gap": {
-            "value": "{og.space.block.mouse}",
+            "value": "{lenteveld.space.block.mouse}",
             "type": "spacing"
           }
         }
@@ -4764,7 +4801,7 @@
       "footer": {
         "background": {
           "color": {
-            "value": "{og.color.primary-color}",
+            "value": "{lenteveld.color.primary-color}",
             "type": "color"
           }
         }
