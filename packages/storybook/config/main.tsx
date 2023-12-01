@@ -22,5 +22,5 @@ module.exports = {
     buildStoriesJson: true,
     storyStoreV7: true,
   },
-  staticDirs: ['../../../private/assets/src'],
+  staticDirs: ['../../../private/lenteveld/assets/src'],
 };
