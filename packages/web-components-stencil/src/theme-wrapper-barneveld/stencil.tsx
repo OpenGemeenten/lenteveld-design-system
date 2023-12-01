@@ -5,6 +5,7 @@
 
 import style from '@opengemeenten/barneveld-design-tokens/dist/index.css';
 import { Component, h } from '@stencil/core';
+import '@utrecht/web-component-library-react';
 
 @Component({
   tag: 'omg-theme-wrapper-barneveld',
