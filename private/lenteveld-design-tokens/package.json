@@ -20,7 +20,7 @@
     "clean": "rimraf dist/",
     "prebuild": "npm run clean",
     "build": "npm-run-all --sequential build:figma-tokens build:style-dictionary",
-    "build:figma-tokens": "token-transformer --throwErrorWhenNotResolved=true figma/*.tokens.json src/generated/figma.tokens.json || exit 0",
+    "build:figma-tokens": "token-transformer --throwErrorWhenNotResolved=true figma/*.tokens.json src/generated/figma.tokens.json",
     "build:style-dictionary": "style-dictionary build --config ./style-dictionary.config.json",
     "watch": "npm-run-all watch:**",
     "watch:style-dictionary": "chokidar --follow-symlinks --initial --command 'npm run build' 'src/**/*.tokens.json'"
