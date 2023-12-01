@@ -416,9 +416,36 @@ importers:
         specifier: 4.8.0
         version: 4.8.0
     devDependencies:
+      '@opengemeenten/barneveld-assets':
+        specifier: workspace:*
+        version: link:../../private/barneveld-assets
+      '@opengemeenten/barneveld-design-tokens':
+        specifier: workspace:*
+        version: link:../../private/barneveld-design-tokens
+      '@opengemeenten/barneveld-font':
+        specifier: workspace:*
+        version: link:../../private/barneveld-font
       '@opengemeenten/components-css':
         specifier: workspace:*
         version: link:../components-css
+      '@opengemeenten/lenteveld-assets':
+        specifier: workspace:*
+        version: link:../../private/lenteveld-assets
+      '@opengemeenten/lenteveld-design-tokens':
+        specifier: workspace:*
+        version: link:../../private/lenteveld-design-tokens
+      '@opengemeenten/lenteveld-font':
+        specifier: workspace:*
+        version: link:../../private/lenteveld-font
+      '@opengemeenten/nieuwegein-assets':
+        specifier: workspace:*
+        version: link:../../private/nieuwegein-assets
+      '@opengemeenten/nieuwegein-design-tokens':
+        specifier: workspace:*
+        version: link:../../private/nieuwegein-design-tokens
+      '@opengemeenten/nieuwegein-font':
+        specifier: workspace:*
+        version: link:../../private/nieuwegein-font
       '@stencil/react-output-target':
         specifier: 0.5.3
         version: 0.5.3(@stencil/core@4.8.0)
