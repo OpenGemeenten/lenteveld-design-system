@@ -1135,7 +1135,7 @@
             "value": "{lenteveld.border-width.sm}"
           },
           "padding-block-end": {
-            "value": "lenteveld..block.rabbit}",
+            "value": "{lenteveld.space.block.rabbit}",
             "type": "spacing"
           },
           "padding-inline-end": {
