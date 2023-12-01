@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "Design system based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@example/design-system",
+  "name": "@opengemeenten/design-system",
   "keywords": [
     "nl-design-system"
   ],
@@ -61,7 +61,7 @@
     "publish": "lerna publish from-package --yes",
     "release": "lerna version prerelease --conventional-prerelease --no-changelog --no-private --yes",
     "start": "node_modules/http-server/bin packages/storybook/dist/",
-    "storybook": "npm-run-all --parallel watch:**",
+    "storybook": "npm run watch:storybook",
     "test": "npm run test-workspaces",
     "test-update": "npm-run-all --sequential clean lint build test",
     "test-workspaces": "lerna run --no-bail test",

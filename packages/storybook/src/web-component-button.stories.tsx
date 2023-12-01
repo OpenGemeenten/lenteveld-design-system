@@ -1,7 +1,7 @@
 /* @license CC0-1.0 */
 
-import readme from '@example/components-css/button/README.md?raw';
-import { ExampleButton } from '@example/web-components-react';
+import readme from '@opengemeenten/components-css/button/README.md?raw';
+import { ExampleButton } from '@opengemeenten/web-components-react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { PropsWithChildren } from 'react';
 
