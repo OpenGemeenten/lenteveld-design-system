@@ -1,29 +1,29 @@
+import { defineCustomElements } from '@opengemeenten/web-components-stencil/loader/index.js';
+import { withThemeByClassName } from '@storybook/addon-styling';
+import type { Preview } from '@storybook/react';
+import { Document } from '@utrecht/component-library-react/dist/css-module';
+import { defineCustomElements as defineCustomElementsUtrecht } from '@utrecht/web-component-library-stencil/loader/index.js';
 import '@opengemeenten/barneveld-design-tokens/dist/index.css';
 import '@opengemeenten/barneveld-font/src/index.scss';
 import '@opengemeenten/lenteveld-design-tokens/dist/index.css';
 import '@opengemeenten/lenteveld-font/src/index.scss';
 import '@opengemeenten/nieuwegein-design-tokens/dist/index.css';
 import '@opengemeenten/nieuwegein-font/src/index.scss';
-import { defineCustomElements } from '@opengemeenten/web-components-stencil/loader/index.js';
-import type { Preview, StoryContext } from '@storybook/react';
 
 defineCustomElements();
+defineCustomElementsUtrecht();
 
 const preview: Preview = {
   decorators: [
-    // Enable `utrecht-document` component as backdrop
-    // Enable `utrecht-theme` to configure the design tokens
-    // Ensure old html templates will be rendered as react component
-    (Story: any, storyContext: StoryContext<any>) => {
-      // Hack to make current args for a story available in the transformSource of the docs addon
-      storyContext.parameters['args'] = storyContext.args;
-
-      return (
-        <div className="example-theme">
-          <Story />
-        </div>
-      );
-    },
+    withThemeByClassName({
+      themes: {
+        Barneveld: 'barneveld-theme',
+        Lenteveld: 'lenteveld-theme',
+        Nieuwegein: 'nieuwegein-theme',
+      },
+      defaultTheme: 'Lenteveld',
+    }),
+    (Story: any) => <Document>{Story()}</Document>,
   ],
   parameters: {
     controls: { expanded: false },
