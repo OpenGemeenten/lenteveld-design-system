@@ -3,6 +3,7 @@
  * Copyright (c) 2021 Community for NL Design System
  */
 
+import '@utrecht/web-component-library-react';
 import style from '@opengemeenten/nieuwegein-design-tokens/dist/index.css';
 import { Component, h } from '@stencil/core';
 

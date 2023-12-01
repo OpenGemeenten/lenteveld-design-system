@@ -34,16 +34,16 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@opengemeenten/components-css": "workspace:*",
     "@opengemeenten/barneveld-assets": "workspace:*",
     "@opengemeenten/barneveld-design-tokens": "workspace:*",
     "@opengemeenten/barneveld-font": "workspace:*",
-    "@opengemeenten/nieuwegein-assets": "workspace:*",
-    "@opengemeenten/nieuwegein-design-tokens": "workspace:*",
-    "@opengemeenten/nieuwegein-font": "workspace:*",
+    "@opengemeenten/components-css": "workspace:*",
     "@opengemeenten/lenteveld-assets": "workspace:*",
     "@opengemeenten/lenteveld-design-tokens": "workspace:*",
     "@opengemeenten/lenteveld-font": "workspace:*",
+    "@opengemeenten/nieuwegein-assets": "workspace:*",
+    "@opengemeenten/nieuwegein-design-tokens": "workspace:*",
+    "@opengemeenten/nieuwegein-font": "workspace:*",
     "@stencil/react-output-target": "0.5.3",
     "@stencil/sass": "3.0.7",
     "@types/jest": "29.5.10",
@@ -55,6 +55,8 @@
     "typescript": "5.3.2"
   },
   "dependencies": {
-    "@stencil/core": "4.8.0"
+    "@stencil/core": "4.8.0",
+    "@utrecht/web-component-library-react": "1.0.2",
+    "@utrecht/web-component-library-stencil": "1.1.0"
   }
 }
