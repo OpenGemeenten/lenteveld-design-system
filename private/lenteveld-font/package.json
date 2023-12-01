@@ -1,9 +1,10 @@
 {
   "version": "1.0.0-alpha.0",
   "author": "OpenGemeenten",
-  "description": "Assets",
+  "description": "Lenteveld font assets",
   "license": "SEE LICENSE IN LICENSE.md",
-  "name": "@opengemeenten/lenteveld-assets",
+  "name": "@opengemeenten/lenteveld-font",
+  "main": "dist/index.css",
   "keywords": [
     "nl-design-system"
   ],
@@ -11,7 +12,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:OpenGemeenten/lenteveld-design-system.git"

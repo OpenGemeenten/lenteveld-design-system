@@ -1,9 +1,9 @@
 {
   "version": "1.0.0-alpha.0",
   "author": "OpenGemeenten",
-  "description": "Font assets",
+  "description": "Barneveld font assets",
   "license": "SEE LICENSE IN LICENSE.md",
-  "name": "@opengemeenten/lenteveld-font",
+  "name": "@opengemeenten/barneveld-font",
   "main": "dist/index.css",
   "keywords": [
     "nl-design-system"

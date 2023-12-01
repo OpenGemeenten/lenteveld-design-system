@@ -1,9 +1,10 @@
 {
   "version": "1.0.0-alpha.0",
   "author": "OpenGemeenten",
-  "description": "Assets",
+  "description": "Font assets",
   "license": "SEE LICENSE IN LICENSE.md",
-  "name": "@opengemeenten/barneveld-assets",
+  "name": "@opengemeenten/nieuwegein-font",
+  "main": "dist/index.css",
   "keywords": [
     "nl-design-system"
   ],
@@ -11,9 +12,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:OpenGemeenten/barneveld-design-system.git"
+    "url": "git@github.com:OpenGemeenten/lenteveld-design-system.git"
   }
 }
