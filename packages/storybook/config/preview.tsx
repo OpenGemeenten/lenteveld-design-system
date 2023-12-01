@@ -1,5 +1,9 @@
-import '@opengemeenten/design-tokens/dist/index.css';
-import '@opengemeenten/font/src/index.scss';
+import '@opengemeenten/barneveld-design-tokens/dist/index.css';
+import '@opengemeenten/barneveld-font/src/index.scss';
+import '@opengemeenten/lenteveld-design-tokens/dist/index.css';
+import '@opengemeenten/lenteveld-font/src/index.scss';
+import '@opengemeenten/nieuwegein-design-tokens/dist/index.css';
+import '@opengemeenten/nieuwegein-font/src/index.scss';
 import { defineCustomElements } from '@opengemeenten/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 

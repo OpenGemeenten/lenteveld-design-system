@@ -1,10 +1,9 @@
 {
   "version": "1.0.0-alpha.0",
   "author": "OpenGemeenten",
-  "description": "Font assets",
+  "description": "Barneveld design system assets",
   "license": "SEE LICENSE IN LICENSE.md",
-  "name": "@opengemeenten/barneveld-font",
-  "main": "dist/index.css",
+  "name": "@opengemeenten/barneveld-assets",
   "keywords": [
     "nl-design-system"
   ],
@@ -12,11 +11,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "src"
-  ],
+  "files": [],
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:OpenGemeenten/barneveld-design-system.git"
+    "url": "git@github.com:OpenGemeenten/lenteveld-design-system.git"
   }
 }
