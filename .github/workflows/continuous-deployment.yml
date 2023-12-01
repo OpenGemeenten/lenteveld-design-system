@@ -236,7 +236,7 @@ jobs:
         with:
           autoAcceptChanges: ${{ env.MAIN_BRANCH }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: packages/storybook-css/dist/
+          storybookBuildDir: packages/storybook/dist/
 
   publish-website:
     runs-on: ubuntu-latest
