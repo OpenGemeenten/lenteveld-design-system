@@ -13,7 +13,7 @@
   },
   "workspaces": [
     "./packages/*",
-    "./proprietary/*"
+    "./private/*"
   ],
   "devDependencies": {
     "@lerna-lite/cli": "3.0.0",

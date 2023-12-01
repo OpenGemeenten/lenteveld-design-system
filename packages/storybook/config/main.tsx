@@ -22,5 +22,5 @@ module.exports = {
     buildStoriesJson: true,
     storyStoreV7: true,
   },
-  staticDirs: ['../../../proprietary/assets/src'],
+  staticDirs: ['../../../private/assets/src'],
 };
