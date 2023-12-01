@@ -1,0 +1,1 @@
+import{r as e,h as t,H as o}from"./index-ALzZ1arg.js";import"./iframe-d4XwmJiB.js";import"../sb-preview/runtime.js";const s=":host{--_utrecht-table-header-cell-z-index:2;display:table-row-group}",l=class{constructor(r){e(this,r)}render(){return t(o,{role:"rowgroup"},t("slot",null))}};l.style=s;export{l as utrecht_table_body};
