@@ -10,68 +10,76 @@ https://stenciljs.com/docs/dev-server
 
 -->
 <html dir="ltr" lang="nl" class="lenteveld-theme">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
     <title>Paspoort aanvragen</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="module" src="./build/omg.esm.js"></script>
     <script nomodule src="./build/omg.js"></script>
     <style>
-        /* custom CSS here */
+      /* custom CSS here */
     </style>
-</head>
-<body>
-  <omg-theme-wrapper-barneveld>
-    <div class="utrecht-document utrecht-document--surface">
+  </head>
+  <body>
+    <omg-theme-wrapper-barneveld>
+      <div class="utrecht-document utrecht-document--surface">
         <utrecht-page>
-            <utrecht-page-header>
-                <a href="/" aria-label="Homepage" rel="home">
-                    <img src="logoLenteveld.svg" alt="logo Lenteveld" height="48"/>
-                </a>
-                <nav class="page-header__menu" id="page-header__menu" aria-label="Hoofdnavigatie">
-                    <div class="page-header__menu__wrapper">
-                        <utrecht-link href="https://example.com/">Aanvragen<br>
-                            en regelen
-                        </utrecht-link>
-                        <utrecht-link href="https://example.com/">Info over<br>
-                            de gemeente
-                        </utrecht-link>
-                        <utrecht-link href="https://example.com/">Actuele<br>
-                            berichten
-                        </utrecht-link>
-                        <utrecht-link href="https://example.com/">Nieuwbouw<br>
-                            in Lenteveld
-                        </utrecht-link>
-                    </div>
-                </nav>
-                <div class="page-header__search" id="page-header__search" role="search">
-                    <form action="/zoeken" method="get" class="page-header__search__form">
-                        <utrecht-form-field-textbox placeholder="Zoeken" type="search">
-                            Zoeken
-                        </utrecht-form-field-textbox>
-                        <utrecht-button
-                                appearance="primary-action-button"
-                                type="submit"
-                                formaction=""
-                                formenctype=""
-                                formmethod=""
-                                formnovalidate="false"
-                        >
-                            Zoeken
-                        </utrecht-button>
-                        <ul role="listbox" tabindex="0" id="page-header__search__input__result-list"
-                            style="display: none;"></ul>
-                        <span id="page-header__search__input__description" class="screenreader--only">Wanneer autocomplete resultaten beschikbaar zijn kun je hierdoor navigeren door pijl omhoog en omlaag te gebruiken. Gebruik de enter-toets om een waarde te selecteren.</span>
-                        <div id="page-header__search__input__live-explanation" aria-live="assertive" aria-atomic="true"
-                            class="screenreader--only"></div>
-                    </form>
-                </div>
-            </utrecht-page-header>
-            <utrecht-page-content>Page content</utrecht-page-content>
-            <utrecht-page-footer>Footer content</utrecht-page-footer>
+          <utrecht-page-header>
+            <a href="/" aria-label="Homepage" rel="home">
+              <img src="logoLenteveld.svg" alt="logo Lenteveld" height="48" />
+            </a>
+            <nav class="page-header__menu" id="page-header__menu" aria-label="Hoofdnavigatie">
+              <div class="page-header__menu__wrapper">
+                <utrecht-link href="https://example.com/"
+                  >Aanvragen<br />
+                  en regelen
+                </utrecht-link>
+                <utrecht-link href="https://example.com/"
+                  >Info over<br />
+                  de gemeente
+                </utrecht-link>
+                <utrecht-link href="https://example.com/"
+                  >Actuele<br />
+                  berichten
+                </utrecht-link>
+                <utrecht-link href="https://example.com/"
+                  >Nieuwbouw<br />
+                  in Lenteveld
+                </utrecht-link>
+              </div>
+            </nav>
+            <div class="page-header__search" id="page-header__search" role="search">
+              <form action="/zoeken" method="get" class="page-header__search__form">
+                <utrecht-form-field-textbox placeholder="Zoeken" type="search"> Zoeken </utrecht-form-field-textbox>
+                <utrecht-button
+                  appearance="primary-action-button"
+                  type="submit"
+                  formaction=""
+                  formenctype=""
+                  formmethod=""
+                  formnovalidate="false"
+                >
+                  Zoeken
+                </utrecht-button>
+                <ul role="listbox" tabindex="0" id="page-header__search__input__result-list" style="display: none"></ul>
+                <span id="page-header__search__input__description" class="screenreader--only"
+                  >Wanneer autocomplete resultaten beschikbaar zijn kun je hierdoor navigeren door pijl omhoog en omlaag
+                  te gebruiken. Gebruik de enter-toets om een waarde te selecteren.</span
+                >
+                <div
+                  id="page-header__search__input__live-explanation"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                  class="screenreader--only"
+                ></div>
+              </form>
+            </div>
+          </utrecht-page-header>
+          <utrecht-page-content>Page content</utrecht-page-content>
+          <utrecht-page-footer>Footer content</utrecht-page-footer>
         </utrecht-page>
-    </div>
-</omg-theme-wrapper-barneveld>
-</body>
+      </div>
+    </omg-theme-wrapper-barneveld>
+  </body>
 </html>
