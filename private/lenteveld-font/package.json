@@ -18,5 +18,8 @@
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:OpenGemeenten/lenteveld-design-system.git"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.0.15"
   }
 }
