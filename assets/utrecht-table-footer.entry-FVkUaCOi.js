@@ -1,1 +1,0 @@
-import{r,h as t,H as o}from"./index-DkzMEP7-.js";import"./iframe-5QfiiD1O.js";import"../sb-preview/runtime.js";const s=":host{--_utrecht-table-header-cell-z-index:5;z-index:3;display:table-footer-group}",l=class{constructor(e){r(this,e)}render(){return t(o,{role:"rowgroup"},t("slot",null))}};l.style=s;export{l as utrecht_table_footer};
