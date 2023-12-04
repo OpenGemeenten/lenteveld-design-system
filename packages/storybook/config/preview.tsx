@@ -6,9 +6,9 @@ import { defineCustomElements as defineCustomElementsUtrecht } from '@utrecht/we
 import '@opengemeenten/barneveld-design-tokens/dist/index.css';
 import '@opengemeenten/barneveld-font/src/index.scss';
 import '@opengemeenten/lenteveld-design-tokens/dist/index.css';
-import '@opengemeenten/lenteveld-font/src/index.scss';
+import '@opengemeenten/lenteveld-font/src/index.js';
 import '@opengemeenten/nieuwegein-design-tokens/dist/index.css';
-import '@opengemeenten/nieuwegein-font/src/index.scss';
+import '@opengemeenten/nieuwegein-font/src/index.js';
 
 defineCustomElements();
 defineCustomElementsUtrecht();
