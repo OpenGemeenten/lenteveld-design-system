@@ -2822,7 +2822,7 @@
     }
   },
   "components/heading": {
-    "og": {
+    "utrecht": {
       "heading-1": {
         "color": {
           "type": "color",
@@ -3420,7 +3420,7 @@
     }
   },
   "components/paragraph": {
-    "og": {
+    "utrecht": {
       "paragraph": {
         "color": {
           "type": "color",
@@ -4668,7 +4668,7 @@
     }
   },
   "large-viewport/paragraph": {
-    "og": {
+    "utrecht": {
       "paragraph": {
         "large-viewport": {
           "font-size": {
@@ -4696,7 +4696,7 @@
     }
   },
   "large-viewport/heading": {
-    "og": {
+    "utrecht": {
       "heading-1": {
         "large-viewport": {
           "font-size": {
