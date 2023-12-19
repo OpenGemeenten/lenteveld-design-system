@@ -1,6 +1,6 @@
 {
   "brand": {
-    "lenteveld": {
+    "ogds": {
       "typography": {
         "font-size": {
           "xs": {
@@ -107,105 +107,6 @@
           }
         }
       },
-      "border-width": {
-        "sm": {
-          "value": "1px",
-          "type": "borderWidth"
-        },
-        "md": {
-          "value": "2px",
-          "type": "borderWidth"
-        },
-        "lg": {
-          "value": "4px",
-          "type": "borderWidth"
-        }
-      },
-      "box-shadow": {
-        "sm": {
-          "value": {
-            "x": "0",
-            "y": "2",
-            "blur": "6",
-            "spread": "0",
-            "color": "{ogds.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "md": {
-          "value": {
-            "x": "0",
-            "y": "8",
-            "blur": "16",
-            "spread": "0",
-            "color": "{ogds.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": {
-            "x": "0",
-            "y": "16",
-            "blur": "48",
-            "spread": "0",
-            "color": "{ogds.color.dark.alpha.100}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "color": {
-        "red": {
-          "100": {
-            "value": "lightpink",
-            "type": "other"
-          },
-          "600": {
-            "value": "red",
-            "type": "other"
-          }
-        },
-        "yellow": {
-          "100": {
-            "value": "bisque",
-            "type": "other"
-          },
-          "600": {
-            "value": "yellow",
-            "type": "other"
-          }
-        },
-        "blue": {
-          "100": {
-            "value": "aliceblue",
-            "type": "other"
-          },
-          "600": {
-            "value": "blue",
-            "type": "other"
-          }
-        },
-        "green": {
-          "100": {
-            "value": "lightgreen",
-            "type": "other"
-          },
-          "600": {
-            "value": "green",
-            "type": "other"
-          }
-        },
-        "violet": {
-          "100": {
-            "value": "rebeccapurple",
-            "type": "other"
-          }
-        }
-      }
-    },
-    "ogds": {
       "space": {
         "inline": {
           "flea": {
@@ -473,6 +374,55 @@
           "type": "borderRadius"
         }
       },
+      "border-width": {
+        "sm": {
+          "value": "1px",
+          "type": "borderWidth"
+        },
+        "md": {
+          "value": "2px",
+          "type": "borderWidth"
+        },
+        "lg": {
+          "value": "4px",
+          "type": "borderWidth"
+        }
+      },
+      "box-shadow": {
+        "sm": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "6",
+            "spread": "0",
+            "color": "{ogds.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "md": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0",
+            "color": "{ogds.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "lg": {
+          "value": {
+            "x": "0",
+            "y": "16",
+            "blur": "48",
+            "spread": "0",
+            "color": "{ogds.color.dark.alpha.100}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
       "color": {
         "white": {
           "value": "#ffffff",
@@ -580,6 +530,52 @@
             "type": "color"
           }
         },
+        "red": {
+          "100": {
+            "value": "lightpink",
+            "type": "other"
+          },
+          "600": {
+            "value": "red",
+            "type": "other"
+          }
+        },
+        "yellow": {
+          "100": {
+            "value": "bisque",
+            "type": "other"
+          },
+          "600": {
+            "value": "yellow",
+            "type": "other"
+          }
+        },
+        "blue": {
+          "100": {
+            "value": "aliceblue",
+            "type": "other"
+          },
+          "600": {
+            "value": "blue",
+            "type": "other"
+          }
+        },
+        "green": {
+          "100": {
+            "value": "lightgreen",
+            "type": "other"
+          },
+          "600": {
+            "value": "green",
+            "type": "other"
+          }
+        },
+        "violet": {
+          "100": {
+            "value": "rebeccapurple",
+            "type": "other"
+          }
+        },
         "light": {
           "alpha": {
             "50": {
@@ -656,15 +652,15 @@
             "type": "sizing"
           },
           "lg": {
-            "value": "24px",
+            "value": "28px",
             "type": "sizing"
           },
           "xl": {
-            "value": "24px",
+            "value": "32px",
             "type": "sizing"
           },
           "2xl": {
-            "value": "32px",
+            "value": "36px",
             "type": "sizing"
           },
           "3xl": {
@@ -714,30 +710,30 @@
         },
         "font-size": {
           "small": {
-            "value": "{lenteveld.typography.font-size.md}",
+            "value": "{ogds.typography.font-size.md}",
             "type": "fontSizes"
           },
           "large": {
-            "value": "{lenteveld.typography.font-size.l-md}",
+            "value": "{ogds.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         },
         "font-weight": {
-          "value": "{lenteveld.typography.font-weight.normal}",
+          "value": "{ogds.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "strong": {
           "font-weight": {
-            "value": "{lenteveld.typography.font-weight.bold}",
+            "value": "{ogds.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.md}",
+          "value": "{ogds.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.primary}",
+          "value": "{ogds.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
@@ -747,11 +743,11 @@
           "type": "color"
         },
         "font-weight": {
-          "value": "{lenteveld.typography.font-weight.bold}",
+          "value": "{ogds.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.primary}",
+          "value": "{ogds.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
@@ -761,7 +757,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         }
       },
@@ -771,7 +767,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         }
       },
@@ -821,7 +817,7 @@
           "type": "other"
         },
         "outline-width": {
-          "value": "{lenteveld.border-width.md}",
+          "value": "{ogds.border-width.md}",
           "type": "borderWidth"
         }
       },
@@ -839,7 +835,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         },
         "color": {
@@ -860,7 +856,7 @@
             "type": "color"
           },
           "border-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
@@ -896,7 +892,7 @@
             "type": "color"
           },
           "border-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
@@ -918,7 +914,7 @@
             "type": "color"
           },
           "border-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
@@ -936,7 +932,7 @@
             "type": "color"
           },
           "border-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "color": {
@@ -988,57 +984,57 @@
       "feedback": {
         "informative": {
           "background-color": {
-            "value": "{lenteveld.color.blue.100}",
+            "value": "{ogds.color.blue.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{lenteveld.color.blue.600}",
+            "value": "{ogds.color.blue.600}",
             "type": "color"
           },
           "color": {
-            "value": "{lenteveld.color.blue.600}",
+            "value": "{ogds.color.blue.600}",
             "type": "color"
           }
         },
         "negative": {
           "background-color": {
-            "value": "{lenteveld.color.red.100}",
+            "value": "{ogds.color.red.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{lenteveld.color.red.600}",
+            "value": "{ogds.color.red.600}",
             "type": "color"
           },
           "color": {
-            "value": "{lenteveld.color.red.600}",
+            "value": "{ogds.color.red.600}",
             "type": "color"
           }
         },
         "positive": {
           "background-color": {
-            "value": "{lenteveld.color.green.100}",
+            "value": "{ogds.color.green.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{lenteveld.color.green.600}",
+            "value": "{ogds.color.green.600}",
             "type": "color"
           },
           "color": {
-            "value": "{lenteveld.color.green.600}",
+            "value": "{ogds.color.green.600}",
             "type": "color"
           }
         },
         "warning": {
           "background-color": {
-            "value": "{lenteveld.color.yellow.100}",
+            "value": "{ogds.color.yellow.100}",
             "type": "color"
           },
           "border-color": {
-            "value": "{lenteveld.color.yellow.600}",
+            "value": "{ogds.color.yellow.600}",
             "type": "color"
           },
           "color": {
-            "value": "{lenteveld.color.yellow.600}",
+            "value": "{ogds.color.yellow.600}",
             "type": "color"
           }
         }
@@ -1097,7 +1093,7 @@
           }
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         },
         "hover": {
@@ -1127,7 +1123,7 @@
         "section": {
           "border-block-end-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "border-width": {
             "type": "borderWidth",
@@ -1145,7 +1141,7 @@
           },
           "border-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "padding-block-end": {
             "value": "lenteveld..block.rabbit}",
@@ -1265,7 +1261,7 @@
           },
           "border-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "font-family": {
             "value": "{og.document.font-family}",
@@ -1300,11 +1296,11 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{lenteveld.typography.line-height.sm}",
+            "value": "{ogds.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{lenteveld.typography.font-size.xl}",
+            "value": "{ogds.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
@@ -1313,7 +1309,7 @@
           "type": "spacing"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.md}",
+          "value": "{ogds.border-width.md}",
           "type": "borderWidth"
         },
         "padding-block-end": {
@@ -1470,11 +1466,11 @@
             "type": "fontWeights"
           },
           "line-height": {
-            "value": "{lenteveld.typography.line-height.sm}",
+            "value": "{ogds.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-size": {
-            "value": "{lenteveld.typography.font-size.xl}",
+            "value": "{ogds.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
@@ -1540,7 +1536,7 @@
         },
         "body": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.md}",
+            "value": "{ogds.typography.font-size.md}",
             "type": "fontSizes"
           }
         }
@@ -1577,15 +1573,15 @@
           "type": "border"
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.primary}",
+          "value": "{ogds.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{lenteveld.typography.font-weight.normal}",
+          "value": "{ogds.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "icon": {
@@ -1602,7 +1598,7 @@
       "blockquote": {
         "attribution": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.sm}",
+            "value": "{ogds.typography.font-size.sm}",
             "type": "fontSizes"
           },
           "font-family": {
@@ -1610,7 +1606,7 @@
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{lenteveld.typography.line-height.md}",
+            "value": "{ogds.typography.line-height.md}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1632,7 +1628,7 @@
             "type": "fontFamilies"
           },
           "line-height": {
-            "value": "{lenteveld.typography.line-height.sm}",
+            "value": "{ogds.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "font-weight": {
@@ -1640,7 +1636,7 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{lenteveld.typography.font-size.xl}",
+            "value": "{ogds.typography.font-size.xl}",
             "type": "fontSizes"
           },
           "color": {
@@ -1952,7 +1948,7 @@
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{lenteveld.border-width.sm}"
+          "value": "{ogds.border-width.sm}"
         },
         "icon": {
           "size": {
@@ -2463,7 +2459,7 @@
     "utrecht": {
       "counter-badge": {
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -2483,7 +2479,7 @@
           "type": "fontWeights"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         },
         "border-radius": {
@@ -2607,7 +2603,7 @@
         "item": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "border-color": {
             "value": "{og.line.border-color}",
@@ -2674,7 +2670,7 @@
             "type": "color"
           },
           "border-inline-start-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "padding-inline-start": {
@@ -2841,11 +2837,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.sm}",
+          "value": "{ogds.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.3xl}",
+          "value": "{ogds.typography.font-size.3xl}",
           "type": "fontSizes"
         }
       },
@@ -2863,11 +2859,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.sm}",
+          "value": "{ogds.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.2xl}",
+          "value": "{ogds.typography.font-size.2xl}",
           "type": "fontSizes"
         }
       },
@@ -2885,11 +2881,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.sm}",
+          "value": "{ogds.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.lg}",
+          "value": "{ogds.typography.font-size.lg}",
           "type": "fontSizes"
         }
       },
@@ -2907,11 +2903,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.md}",
+          "value": "{ogds.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.md}",
+          "value": "{ogds.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -2929,11 +2925,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.md}",
+          "value": "{ogds.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         }
       },
@@ -2951,11 +2947,11 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{lenteveld.typography.line-height.md}",
+          "value": "{ogds.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.xs}",
+          "value": "{ogds.typography.font-size.xs}",
           "type": "fontSizes"
         }
       }
@@ -3129,7 +3125,7 @@
         "relative-link": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "icon": {
             "margin-inline": {
@@ -3255,7 +3251,7 @@
         "page-link": {
           "border-width": {
             "type": "borderWidth",
-            "value": "{lenteveld.border-width.sm}"
+            "value": "{ogds.border-width.sm}"
           },
           "font-weight": {
             "value": "{og.document.font-weight}",
@@ -3443,7 +3439,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.md}",
+          "value": "{ogds.typography.font-size.md}",
           "type": "fontSizes"
         }
       },
@@ -3465,7 +3461,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.lg}",
+          "value": "{ogds.typography.font-size.lg}",
           "type": "fontSizes"
         }
       },
@@ -3487,7 +3483,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         }
       }
@@ -4026,10 +4022,10 @@
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{lenteveld.border-width.sm}"
+          "value": "{ogds.border-width.sm}"
         },
         "box-block-end-shadow": {
-          "value": "{lenteveld.box-shadow.lg}",
+          "value": "{ogds.box-shadow.lg}",
           "type": "boxShadow"
         },
         "text-decoration": {
@@ -4043,7 +4039,7 @@
     "utrecht": {
       "status-badge": {
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "line-height": {
@@ -4055,7 +4051,7 @@
           "type": "fontWeights"
         },
         "border-width": {
-          "value": "{lenteveld.border-width.sm}",
+          "value": "{ogds.border-width.sm}",
           "type": "borderWidth"
         },
         "font-family": {
@@ -4077,7 +4073,7 @@
         "informative": {
           "background-color": {
             "type": "color",
-            "value": "{lenteveld.color.blue.100}"
+            "value": "{ogds.color.blue.100}"
           },
           "border-color": {
             "type": "color",
@@ -4091,7 +4087,7 @@
         "positive": {
           "background-color": {
             "type": "color",
-            "value": "{lenteveld.color.green.100}"
+            "value": "{ogds.color.green.100}"
           },
           "border-color": {
             "type": "color",
@@ -4132,7 +4128,7 @@
         },
         "background-color": {
           "type": "color",
-          "value": "{lenteveld.color.violet.100}"
+          "value": "{ogds.color.violet.100}"
         },
         "border-color": {
           "type": "color",
@@ -4172,7 +4168,7 @@
         },
         "caption": {
           "line-height": {
-            "value": "{lenteveld.typography.line-height.sm}",
+            "value": "{ogds.typography.line-height.sm}",
             "type": "lineHeights"
           },
           "margin-block-end": {
@@ -4192,7 +4188,7 @@
             "type": "fontWeights"
           },
           "font-size": {
-            "value": "{lenteveld.typography.font-size.xl}",
+            "value": "{ogds.typography.font-size.xl}",
             "type": "fontSizes"
           }
         },
@@ -4238,7 +4234,7 @@
         },
         "header": {
           "border-block-end-width": {
-            "value": "{lenteveld.border-width.md}",
+            "value": "{ogds.border-width.md}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4252,7 +4248,7 @@
         },
         "footer": {
           "border-block-end-width": {
-            "value": "{lenteveld.border-width.sm}",
+            "value": "{ogds.border-width.sm}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4266,7 +4262,7 @@
         },
         "row": {
           "border-block-end-width": {
-            "value": "{lenteveld.border-width.sm}",
+            "value": "{ogds.border-width.sm}",
             "type": "borderWidth"
           },
           "border-block-end-color": {
@@ -4302,11 +4298,11 @@
         },
         "container": {
           "box-inline-end-shadow": {
-            "value": "{lenteveld.box-shadow.lg}",
+            "value": "{ogds.box-shadow.lg}",
             "type": "boxShadow"
           },
           "box-inline-start-shadow": {
-            "value": "{lenteveld.box-shadow.lg}",
+            "value": "{ogds.box-shadow.lg}",
             "type": "boxShadow"
           }
         }
@@ -4676,7 +4672,7 @@
       "paragraph": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-md}",
+            "value": "{ogds.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         }
@@ -4684,7 +4680,7 @@
       "paragraph-lead": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-lg}",
+            "value": "{ogds.typography.font-size.l-lg}",
             "type": "fontSizes"
           }
         }
@@ -4692,7 +4688,7 @@
       "paragraph-small-print": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-sm}",
+            "value": "{ogds.typography.font-size.l-sm}",
             "type": "fontSizes"
           }
         }
@@ -4704,7 +4700,7 @@
       "heading-1": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-3xl}",
+            "value": "{ogds.typography.font-size.l-3xl}",
             "type": "fontSizes"
           }
         }
@@ -4712,7 +4708,7 @@
       "heading-2": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-2xl}",
+            "value": "{ogds.typography.font-size.l-2xl}",
             "type": "fontSizes"
           }
         }
@@ -4720,7 +4716,7 @@
       "heading-3": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-lg}",
+            "value": "{ogds.typography.font-size.l-lg}",
             "type": "fontSizes"
           }
         }
@@ -4728,7 +4724,7 @@
       "heading-4": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-md}",
+            "value": "{ogds.typography.font-size.l-md}",
             "type": "fontSizes"
           }
         }
@@ -4736,7 +4732,7 @@
       "heading-5": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-sm}",
+            "value": "{ogds.typography.font-size.l-sm}",
             "type": "fontSizes"
           }
         }
@@ -4744,7 +4740,7 @@
       "heading-6": {
         "large-viewport": {
           "font-size": {
-            "value": "{lenteveld.typography.font-size.l-xs}",
+            "value": "{ogds.typography.font-size.l-xs}",
             "type": "fontSizes"
           }
         }
@@ -4759,7 +4755,7 @@
           "type": "spacing"
         },
         "font-weight": {
-          "value": "{lenteveld.typography.font-weight.bold}",
+          "value": "{ogds.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       }
@@ -4777,13 +4773,13 @@
           "type": "spacing"
         },
         "font-family": {
-          "value": "{lenteveld.typography.font-family.primary}",
+          "value": "{ogds.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "datetime": {
         "font-size": {
-          "value": "{lenteveld.typography.font-size.sm}",
+          "value": "{ogds.typography.font-size.sm}",
           "type": "fontSizes"
         }
       }
