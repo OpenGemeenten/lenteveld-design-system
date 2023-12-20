@@ -808,6 +808,14 @@
             "type": "color"
           }
         },
+        "outline-offset": {
+          "value": "0",
+          "type": "other"
+        },
+        "outline-style": {
+          "value": "dotted",
+          "type": "other"
+        },
         "outline-width": {
           "value": "{ogds.border-width.md}",
           "type": "borderWidth"
@@ -1029,18 +1037,6 @@
             "value": "{ogds.color.yellow.600}",
             "type": "color"
           }
-        }
-      }
-    },
-    "og": {
-      "focus": {
-        "outline-offset": {
-          "value": "0",
-          "type": "other"
-        },
-        "outline-style": {
-          "value": "dotted",
-          "type": "other"
         }
       }
     }
