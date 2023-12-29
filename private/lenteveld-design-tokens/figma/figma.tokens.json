@@ -1042,7 +1042,7 @@
     }
   },
   "components/avatar": {
-    "nl": {
+    "todo": {
       "avatar": {
         "background-color": {
           "value": "{utrecht.interaction.color}",
@@ -1597,7 +1597,7 @@
           "type": "color"
         },
         "border-width": {
-          "value": "{nl.avatar.border-width}",
+          "value": "{todo.avatar.border-width}",
           "type": "borderWidth"
         },
         "border-color": {
