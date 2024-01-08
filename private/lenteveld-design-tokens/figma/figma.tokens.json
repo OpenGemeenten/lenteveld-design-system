@@ -1590,7 +1590,7 @@
     }
   },
   "components/tag": {
-    "opengemeenten": {
+    "ogds": {
       "tag": {
         "padding-inline": {
           "value": "{ogds.space.block.snail}",
@@ -5164,12 +5164,6 @@
         "font-size": {
           "value": "{ogds.typography.font-size.md}",
           "type": "fontSizes"
-        }
-      },
-      "icon": {
-        "color": {
-          "value": "{ogds.color.primary-color}",
-          "type": "color"
         }
       }
     }
