@@ -1039,6 +1039,18 @@
           }
         }
       }
+    },
+    "ogds": {
+      "icons": {
+        "functioneel": {
+          "value": "{ogds.color.primary-color}",
+          "type": "color"
+        },
+        "toptaak": {
+          "value": "{ogds.color.primary-color}",
+          "type": "color"
+        }
+      }
     }
   },
   "components/avatar": {
