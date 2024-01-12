@@ -4,11 +4,11 @@
       "typography": {
         "font-size": {
           "xs": {
-            "value": "13px",
+            "value": "14px",
             "type": "fontSizes"
           },
           "sm": {
-            "value": "14px",
+            "value": "15px",
             "type": "fontSizes"
           },
           "md": {
@@ -5081,6 +5081,7 @@
       }
     }
   },
+  "local/accordeon": {},
   "local/datetime": {
     "opengemeenten": {
       "datetime": {
@@ -5162,8 +5163,12 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{ogds.typography.font-size.md}",
+          "value": "{ogds.typography.font-size.xs}",
           "type": "fontSizes"
+        },
+        "font-weight": {
+          "value": "{ogds.typography.font-weight.bold}",
+          "type": "fontWeights"
         }
       },
       "icon": {
@@ -5234,6 +5239,7 @@
       "components/unordered-list",
       "large-viewport/paragraph",
       "large-viewport/heading",
+      "local/accordeon",
       "local/datetime",
       "local/step-by-step-plan",
       "local/page-header",
