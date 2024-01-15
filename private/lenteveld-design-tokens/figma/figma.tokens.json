@@ -4913,7 +4913,7 @@
   },
   "local/accordeon": {},
   "local/datetime": {
-    "opengemeenten": {
+    "ogds": {
       "datetime": {
         "column-gap": {
           "value": "{ogds.space.block.ant}",
@@ -5010,8 +5010,8 @@
     }
   },
   "local/page-card-menu": {
-    "opengemeenten": {
-      "card": {
+    "ogds": {
+      "page-card": {
         "heading": {
           "font-family": {
             "value": "{utrecht.heading.font-family}",
