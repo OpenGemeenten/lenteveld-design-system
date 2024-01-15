@@ -1499,96 +1499,6 @@
       }
     }
   },
-  "components/card": {
-    "opengemeenten": {
-      "card": {
-        "heading": {
-          "font-family": {
-            "value": "{utrecht.heading.font-family}",
-            "type": "fontFamilies"
-          },
-          "font-weight": {
-            "value": "{utrecht.heading.font-weight}",
-            "type": "fontWeights"
-          },
-          "line-height": {
-            "value": "{ogds.typography.line-height.sm}",
-            "type": "lineHeights"
-          },
-          "font-size": {
-            "value": "{ogds.typography.font-size.xl}",
-            "type": "fontSizes"
-          }
-        },
-        "column-gap": {
-          "value": "{ogds.space.column.snail}",
-          "type": "spacing"
-        },
-        "border-width": {
-          "value": "{utrecht.form-control.invalid.border-width}",
-          "type": "borderWidth"
-        },
-        "padding-block-end": {
-          "value": "{ogds.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-block-start": {
-          "value": "{ogds.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-inline-end": {
-          "value": "{ogds.space.inline.snail}",
-          "type": "spacing"
-        },
-        "padding-inline-start": {
-          "value": "{ogds.space.inline.snail}",
-          "type": "spacing"
-        },
-        "icon": {
-          "padding-block-end": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-inline-end": {
-            "value": "{ogds.space.column.ant}",
-            "type": "spacing"
-          },
-          "padding-inline-start": {
-            "value": "{ogds.space.inline.ant}",
-            "type": "spacing"
-          },
-          "size": {
-            "type": "sizing",
-            "value": "{utrecht.icon.functional.size}"
-          }
-        },
-        "message": {
-          "row-gap": {
-            "value": "{ogds.space.column.snail}",
-            "type": "spacing"
-          },
-          "padding-block-end": {
-            "value": "{ogds.space.block.snail}",
-            "type": "spacing"
-          },
-          "padding-block-start": {
-            "value": "{ogds.space.block.beetle}",
-            "type": "spacing"
-          }
-        },
-        "body": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.md}",
-            "type": "fontSizes"
-          }
-        }
-      }
-    }
-  },
   "components/tag": {
     "opengemeenten": {
       "tag": {
@@ -5001,86 +4911,6 @@
       }
     }
   },
-  "large-viewport/paragraph": {
-    "utrecht": {
-      "paragraph": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-md}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "paragraph-lead": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-lg}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "paragraph-small-print": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-sm}",
-            "type": "fontSizes"
-          }
-        }
-      }
-    }
-  },
-  "large-viewport/heading": {
-    "utrecht": {
-      "heading-1": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-3xl}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-2": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-2xl}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-3": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-lg}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-4": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-md}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-5": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-sm}",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "heading-6": {
-        "large-viewport": {
-          "font-size": {
-            "value": "{ogds.typography.font-size.l-xs}",
-            "type": "fontSizes"
-          }
-        }
-      }
-    }
-  },
   "local/accordeon": {},
   "local/datetime": {
     "opengemeenten": {
@@ -5179,6 +5009,96 @@
       }
     }
   },
+  "local/page-card-menu": {
+    "opengemeenten": {
+      "card": {
+        "heading": {
+          "font-family": {
+            "value": "{utrecht.heading.font-family}",
+            "type": "fontFamilies"
+          },
+          "font-weight": {
+            "value": "{utrecht.heading.font-weight}",
+            "type": "fontWeights"
+          },
+          "line-height": {
+            "value": "{ogds.typography.line-height.sm}",
+            "type": "lineHeights"
+          },
+          "font-size": {
+            "value": "{ogds.typography.font-size.xl}",
+            "type": "fontSizes"
+          }
+        },
+        "column-gap": {
+          "value": "{ogds.space.column.snail}",
+          "type": "spacing"
+        },
+        "border-width": {
+          "value": "{utrecht.form-control.invalid.border-width}",
+          "type": "borderWidth"
+        },
+        "padding-block-end": {
+          "value": "{ogds.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block-start": {
+          "value": "{ogds.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-end": {
+          "value": "{ogds.space.inline.snail}",
+          "type": "spacing"
+        },
+        "padding-inline-start": {
+          "value": "{ogds.space.inline.snail}",
+          "type": "spacing"
+        },
+        "icon": {
+          "padding-block-end": {
+            "value": "{ogds.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{ogds.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "{ogds.space.column.ant}",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "{ogds.space.inline.ant}",
+            "type": "spacing"
+          },
+          "size": {
+            "type": "sizing",
+            "value": "{utrecht.icon.functional.size}"
+          }
+        },
+        "message": {
+          "row-gap": {
+            "value": "{ogds.space.column.snail}",
+            "type": "spacing"
+          },
+          "padding-block-end": {
+            "value": "{ogds.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{ogds.space.block.beetle}",
+            "type": "spacing"
+          }
+        },
+        "body": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.md}",
+            "type": "fontSizes"
+          }
+        }
+      }
+    }
+  },
   "local/footer": {
     "og": {
       "footer": {
@@ -5186,6 +5106,86 @@
           "color": {
             "value": "{ogds.color.primary-color}",
             "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "large-viewport/paragraph": {
+    "utrecht": {
+      "paragraph": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-md}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "paragraph-lead": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "paragraph-small-print": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-sm}",
+            "type": "fontSizes"
+          }
+        }
+      }
+    }
+  },
+  "large-viewport/heading": {
+    "utrecht": {
+      "heading-1": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-3xl}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "heading-2": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-2xl}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "heading-3": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-lg}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "heading-4": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-md}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "heading-5": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-sm}",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "heading-6": {
+        "large-viewport": {
+          "font-size": {
+            "value": "{ogds.typography.font-size.l-xs}",
+            "type": "fontSizes"
           }
         }
       }
@@ -5200,7 +5200,6 @@
       "components/accordion",
       "components/alert",
       "components/backdrop",
-      "components/card",
       "components/tag",
       "components/blockquote",
       "components/breadcrumb",
@@ -5237,13 +5236,14 @@
       "components/textbox",
       "components/toolbar-button",
       "components/unordered-list",
-      "large-viewport/paragraph",
-      "large-viewport/heading",
       "local/accordeon",
       "local/datetime",
       "local/step-by-step-plan",
       "local/page-header",
-      "local/footer"
+      "local/page-card-menu",
+      "local/footer",
+      "large-viewport/paragraph",
+      "large-viewport/heading"
     ]
   }
 }
