@@ -1499,56 +1499,6 @@
       }
     }
   },
-  "components/tag": {
-    "opengemeenten": {
-      "tag": {
-        "padding-inline": {
-          "value": "{ogds.space.block.snail}",
-          "type": "spacing"
-        },
-        "padding-block": {
-          "value": "{ogds.space.block.flea}",
-          "type": "spacing"
-        },
-        "border-radius": {
-          "value": "{ogds.border-radius.round}",
-          "type": "borderRadius"
-        },
-        "color": {
-          "value": "{utrecht.accordion.button.expanded.border-color}",
-          "type": "color"
-        },
-        "border-width": {
-          "value": "{todo.avatar.border-width}",
-          "type": "borderWidth"
-        },
-        "border-color": {
-          "value": {
-            "color": "{utrecht.textbox.border-color}"
-          },
-          "type": "border"
-        },
-        "font-family": {
-          "value": "{ogds.typography.font-family.primary}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{ogds.typography.font-weight.normal}",
-          "type": "fontWeights"
-        },
-        "font-size": {
-          "value": "{ogds.typography.font-size.sm}",
-          "type": "fontSizes"
-        },
-        "icon": {
-          "size": {
-            "value": "{ogds.size.icon.sm}",
-            "type": "sizing"
-          }
-        }
-      }
-    }
-  },
   "components/blockquote": {
     "utrecht": {
       "blockquote": {
@@ -4922,6 +4872,10 @@
         "font-weight": {
           "value": "{ogds.typography.font-weight.bold}",
           "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.l-xs}",
+          "type": "fontSizes"
         }
       }
     }
@@ -5111,6 +5065,56 @@
       }
     }
   },
+  "local/tag": {
+    "ogds": {
+      "tag": {
+        "padding-inline": {
+          "value": "{ogds.space.block.snail}",
+          "type": "spacing"
+        },
+        "padding-block": {
+          "value": "{ogds.space.block.flea}",
+          "type": "spacing"
+        },
+        "border-radius": {
+          "value": "{ogds.border-radius.round}",
+          "type": "borderRadius"
+        },
+        "color": {
+          "value": "{utrecht.accordion.button.expanded.border-color}",
+          "type": "color"
+        },
+        "border-width": {
+          "value": "{todo.avatar.border-width}",
+          "type": "borderWidth"
+        },
+        "border-color": {
+          "value": {
+            "color": "{utrecht.textbox.border-color}"
+          },
+          "type": "border"
+        },
+        "font-family": {
+          "value": "{ogds.typography.font-family.primary}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{ogds.typography.font-weight.normal}",
+          "type": "fontWeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.sm}",
+          "type": "fontSizes"
+        },
+        "icon": {
+          "size": {
+            "value": "{ogds.size.icon.sm}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  },
   "large-viewport/paragraph": {
     "utrecht": {
       "paragraph": {
@@ -5200,7 +5204,6 @@
       "components/accordion",
       "components/alert",
       "components/backdrop",
-      "components/tag",
       "components/blockquote",
       "components/breadcrumb",
       "components/button",
@@ -5242,6 +5245,7 @@
       "local/page-header",
       "local/page-card-menu",
       "local/footer",
+      "local/tag",
       "large-viewport/paragraph",
       "large-viewport/heading"
     ]
