@@ -4862,6 +4862,118 @@
     }
   },
   "local/accordeon": {},
+  "local/breadcrumb": {
+    "utrecht": {
+      "breadcrumb": {
+        "line-height": {
+          "value": "{utrecht.document.line-height}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{utrecht.document.font-size.large}",
+          "type": "fontSizes"
+        },
+        "link": {
+          "icon": {
+            "size": {
+              "type": "sizing",
+              "value": "{utrecht.icon.functional.size}"
+            },
+            "margin-inline": {
+              "value": "{ogds.space.inline.beetle}",
+              "type": "spacing"
+            }
+          },
+          "padding-block-end": {
+            "value": "{ogds.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-block-start": {
+            "value": "{ogds.space.block.snail}",
+            "type": "spacing"
+          },
+          "padding-inline-end": {
+            "value": "0px",
+            "type": "spacing"
+          },
+          "padding-inline-start": {
+            "value": "0px",
+            "type": "spacing"
+          },
+          "color": {
+            "type": "color",
+            "value": "{utrecht.interaction.color}"
+          },
+          "active": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.active.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "type": "color",
+              "value": "{utrecht.focus.background-color}"
+            },
+            "color": {
+              "type": "color",
+              "value": "{utrecht.focus.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "hover": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.interaction.hover.color}"
+            },
+            "text-decoration": {
+              "value": "none",
+              "type": "textDecoration"
+            }
+          },
+          "current": {
+            "color": {
+              "type": "color",
+              "value": "{utrecht.document.subtle.color}"
+            }
+          },
+          "text-decoration": {
+            "value": "underline",
+            "type": "textDecoration"
+          }
+        },
+        "divider": {
+          "size": {
+            "type": "sizing",
+            "value": "{ogds.size.2xs}"
+          },
+          "color": {
+            "value": "{utrecht.document.subtle.color}",
+            "type": "color"
+          }
+        },
+        "margin-inline": {
+          "value": "{ogds.space.inline.beetle}",
+          "type": "spacing"
+        },
+        "font-family": {
+          "value": "{utrecht.document.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.document.font-weight}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  },
   "local/datetime": {
     "ogds": {
       "datetime": {
@@ -4875,6 +4987,154 @@
         },
         "font-size": {
           "value": "{ogds.typography.font-size.l-xs}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  },
+  "local/footer": {
+    "og": {
+      "footer": {
+        "background": {
+          "color": {
+            "value": "{ogds.color.primary-color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "local/heading": {
+    "utrecht": {
+      "heading-1": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.sm}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.3xl}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-2": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.sm}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.2xl}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-3": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.sm}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.lg}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-4": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.md}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.md}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-5": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.md}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "heading-6": {
+        "color": {
+          "type": "color",
+          "value": "{utrecht.heading.color}"
+        },
+        "font-family": {
+          "value": "{utrecht.heading.font-family}",
+          "type": "fontFamilies"
+        },
+        "font-weight": {
+          "value": "{utrecht.heading.font-weight}",
+          "type": "fontWeights"
+        },
+        "line-height": {
+          "value": "{ogds.typography.line-height.md}",
+          "type": "lineHeights"
+        },
+        "font-size": {
+          "value": "{ogds.typography.font-size.xs}",
           "type": "fontSizes"
         }
       }
@@ -5048,18 +5308,6 @@
           "font-size": {
             "value": "{ogds.typography.font-size.md}",
             "type": "fontSizes"
-          }
-        }
-      }
-    }
-  },
-  "local/footer": {
-    "og": {
-      "footer": {
-        "background": {
-          "color": {
-            "value": "{ogds.color.primary-color}",
-            "type": "color"
           }
         }
       }
@@ -5240,11 +5488,13 @@
       "components/toolbar-button",
       "components/unordered-list",
       "local/accordeon",
+      "local/breadcrumb",
       "local/datetime",
+      "local/footer",
+      "local/heading",
       "local/step-by-step-plan",
       "local/page-header",
       "local/page-card-menu",
-      "local/footer",
       "local/tag",
       "large-viewport/paragraph",
       "large-viewport/heading"
